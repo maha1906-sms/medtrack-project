@@ -19,7 +19,7 @@ logging.basicConfig(
 # AWS Configuration
 # ----------------------------
 REGION = "ap-south-1"  # Change if needed
-SNS_TOPIC_ARN = "arn:aws:sns:ap-south-1:339713112656:M
+SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:222634400684:SNS_TOPIC_ARN"
 
 dynamodb = boto3.resource('dynamodb', region_name=REGION)
 users_table = dynamodb.Table('UsersTable')
